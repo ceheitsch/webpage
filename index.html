@@ -2,67 +2,219 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-    <title>Christine Heitsh</title>
-    <meta name="author" content="Stephen Chenney">
-    <meta content="Acaemic Resume">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+  <title>Christine Heitsh</title>
+  <meta name="author" content="Stephen Chenney">
+  <meta content="Acaemic Resume">
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
 </head>
 
 <body>
-    <h1>Christine E. Heitsch</h1>
-    <div id="tab-container">
-        <ul class="nav nav-tabs" id="tab-list" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="research-tab" data-toggle="tab" href="#research" role="tab" aria-controls="research" aria-selected="false">Profile</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="teaching-tab" data-toggle="tab" href="#teaching" role="tab" aria-controls="teaching" aria-selected="false">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="service-tab" data-toggle="tab" href="#service" role="tab" aria-controls="service" aria-selected="false">Contact</a>
-          </li>
-        </ul>
-        <div class="tab-content" id="tab-content">
-          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Home</div>
-          <div class="tab-pane fade" id="research" role="tabpanel" aria-labelledby="research-tab">Research.</div>
-          <div class="tab-pane fade" id="teaching" role="tabpanel" aria-labelledby="teaching-tab">Teaching</div>
-          <div class="tab-pane fade" id="service" role="tabpanel" aria-labelledby="service-tab">Service</div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <main class="row">
-            <div class="col">
-                <h1>CSV to HTML Table</h1>
-
-                <p>Display any CSV file as a searchable, filterable, pretty HTML table. Done in 100% JavaScript. <a
-                        href="https://github.com/derekeder/csv-to-html-table">Code
-                        on GitHub</a>.</p>
-
-                <p> Here's a table of Health Clinics from the <a href="https://data.cityofchicago.org/browse?q=health%20clinic&sortBy=relevance&utf8=%E2%9C%93">City
-                        of Chicago Data Portal</a>.
+  <h1>Christine E. Heitsch</h1>
+  <div class="container-fluid">
+    <main class="row">
+      <div class="col">
+        <div id="tab-container">
+          <ul class="nav nav-tabs" id="tab-list" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="research-tab" data-toggle="tab" href="#research" role="tab" aria-controls="research" aria-selected="false">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="software-tab" data-toggle="tab" href="#software" role="tab" aria-controls="software" aria-selected="false">Software</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="teaching-tab" data-toggle="tab" href="#teaching" role="tab" aria-controls="teaching" aria-selected="false">Teaching</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" id="service-tab" data-toggle="tab" href="#service" role="tab" aria-controls="service" aria-selected="false">Service</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" id="media-tab" data-toggle="tab" href="#media" role="tab" aria-controls="media" aria-selected="false">Media</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="tab-content">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <p><a href="https://sites.google.com/site/christineheitsch/ceheitsch-cv-oct18.pdf?attredirects=0&amp;d=1" target="_blank">CV Oct 2018</a></p>
+              <p>
+              Heitsch is Professor of <a href="http://www.math.gatech.edu">Mathematics</a> at <a href="http://www.gatech.edu">Georgia Tech</a>,
+              with courtesy appointments in <a href="http://biosci.gatech.edu/">Biological Sciences</a> and
+              <a href="http://www.cse.gatech.edu/">Computational Science &amp; Engineering</a> as well as an affiliation with the
+              <a href="https://petitinstitute.gatech.edu/">Petit Institute for Bioengineering &amp; Bioscience</a>.
+              </p>
+              <p>
+              She is also Director of the new <a href="http://scmb.gatech.edu/">Southeast Center for Mathematics and Biology (SCMB)</a>, an
+              <a href="https://scmb.gatech.edu/news/nsf-simons-centers-search-rules-life">NSF-Simons MathBioSys Research Center</a>, and
+              finishing her tenure directing the GT <a href="http://impact2math.gatech.edu">Interdisciplinary Mathematics Preparation and
+              Career Training (IMPACT)</a> Postdoctoral Program.
+              </p>
+              <p>
+              Heitsch's <a id="research-link" href="#research">research</a> interests lie at the interface between discrete mathematics and molecular biology, specifically combinatorial problems "as motivated by" and "with applications to" fundamental biomedical questions like RNA folding.
+              </p>
+              <p>
+              Students interested in pursuing <a href="http://www.math.gatech.edu/graduate/doctoral-programs">graduate studies</a> in discrete
+              mathematical biology can do so through a number of GT PhD programs including <a href="http://bioinformatics.gatech.edu">Bioinformatics</a>
+              or <a href="http://qbios.gatech.edu/">Quantitative Biosciences</a> as well as <a href="http://www.aco.gatech.edu/">Algorithms, Combinatorics, and Optimization (ACO)</a>,<a href="https://www.cc.gatech.edu/academics/degree-programs/phd/computational-science-engineering">Computational Science &amp; Engineering (CSE)</a>, and (of course) <a href="https://www.math.gatech.edu/graduate/phd-mathematics">Mathematics</a>.
+              </p>
+            </div> 
+            <div class="tab-pane fade" id="research" role="tabpanel" aria-labelledby="research-tab">
+              <div>
+                <strong>Funding</strong>
+                <div>
+                  Heitsch's research program is funded by her current NIH R01 grant, in collaboration with
+                  <a href="https://bio.unc.edu/people/faculty/laederach/">Alain Laederach (UNC Bio)</a>, through the
+                  <a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5300">Joint DMS/NIGMS Initiative</a> and by an NSF DMS mathematical biology award,
+                  in collaboration with <a href="http://spoznan.people.clemson.edu/">Svetlana Poznanović (Clemson, Math)</a>.
+                  <br>
+                  Previous support included a Burroughs Wellcome Fund
+                  <a href="https://www.bwfund.org/grant-programs/interfaces-science/career-awards-scientific-interface">Career Award at the Scientific Interface</a>
+                  and her former NIH R01 grant with collaborators <a href="https://www.cc.gatech.edu/~bader/">David Bader (GT CSE)</a> and
+                  <a href="https://www.chemistry.gatech.edu/faculty/Harvey/">Steve Harvey (GT Bio)</a>.
+                  <br>
+                  Code developed with this support is <a id="software-link" href="#software">freely available</a>.
+                </div>
+              </div>
+              <div style="height:20px"></div>
+              <div>
+                <strong>Recent Articles</strong>
+                <div id="recent-articles" style="border: 1px solid"></div>
+              </div>
+              <div>
+                <strong>Upcoming Travel</strong>
+                <div id="upcoming-travel" style="border: 1px solid"></div>
+              </div>
+              <div>
+                <strong>Current students &amp; postdocs</strong>
+                <div id="current-staff" style="border: 1px solid"></div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="software" role="tabpanel" aria-labelledby="software-tab">
+              <h4>Open software for RNA secondary structure prediction and analysis</h4>
+              <div>
+                <ul>
+                  <li><a href="http://rnaconsensus.math.gatech.edu/">ConsensusStems</a>: homologous structure prediction.
+                  </li>
+                  <li><a href="http://rnaprofiling.gatech.edu/">RNA Profiling</a>: ensemble-based analysis of suboptimal structures.
+                  </li>
+                  <li><a href="http://gtfold.sourceforge.net/index.html">GTfold</a>: scalable multicore structural prediction.
+                  </li>
+                  <li><a href="https://github.com/gtDMMB/RNAStructViz/wiki" target="_blank">RNAStructViz</a>: interactive structural comparison and analysis based on
+                    <a href="http://gtdmmb.github.io/RNAStructViz/" target="_blank">previous work</a>.
+                  </li>
+                </ul>
+                <p>
+                  Code development is open source and managed through <a href="https://github.com/gtDMMB">github</a> to allow for greater collaboration.
                 </p>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="teaching" role="tabpanel" aria-labelledby="teaching-tab">
+              <h4>Courses taught at Georgia Tech</h4>
+              <div>
+                <ol>
+                  <li>Math 2016: Foundations of Mathematical Proof (<a href="http://people.math.gatech.edu/~heitsch/Teaching/2803heh-sp15.html">Spring 2015</a>,
+                    <a href="http://people.math.gatech.edu/~heitsch/Teaching/2803heh-f14.html">Fall 2014</a>,
+                    <a href="http://people.math.gatech.edu/~heitsch/Teaching/4803heh-sp13.html">Spring 2013</a>,
+                    <a href="http://people.math.gatech.edu/~heitsch/Teaching/4803heh-f12.html" >Fall 2012</a>)
+                  </li>
+                  <li>Math 2406: Abstract Vector Spaces (<a href="http://people.math.gatech.edu/~heitsch/Teaching/2406a-f09.html">Fall 2009</a>)
+                  </li>
+                  <li>Math 2602: Linear and Discrete Mathematics (<a href="http://people.math.gatech.edu/~heitsch/Teaching/2602l-sp11.html">Spring 2011</a>,
+                    <a href="http://people.math.gatech.edu/~heitsch/Teaching/2602l-f10.html">Fall 2010</a>)
+                  </li>
+                  <li>Math 3012: Applied Combinatorics (<a href="http://people.math.gatech.edu/~heitsch/Teaching/3012d-sp07.html">Spring 2007</a>,
+                    <a href="http://people.math.gatech.edu/~heitsch/Teaching/3012f-f06.html">Fall 2006</a>)
+                  </li>
+                  <li>Math 4017: Abstract Algebra I (<a href="http://people.math.gatech.edu/~heitsch/Teaching/4107-f17.html">Fall 2017</a>,
+                    <a href="http://people.math.gatech.edu/~heitsch/Teaching/4107-f08.html">Fall 2008</a>)
+                  </li>
+                  <li>Math 4108: Abstract Algebra II (<a href="http://people.math.gatech.edu/~heitsch/Teaching/4108-sp18.html">Spring 2018</a>,
+                    <a href="http://people.math.gatech.edu/~heitsch/Teaching/4108-sp09.html">Spring 2009</a>)
+                  </li>
+                  <li>Math 4317: Analysis I (<a href="http://people.math.gatech.edu/~heitsch/Teaching/4317a-f16.html">Fall 2016</a>,
+                    <a href="http://people.math.gatech.edu/~heitsch/Teaching/4317b-f11.html">Fall 2011</a>)
+                  </li>
+                  <li>Math 4318: Analysis II (<a href="http://people.math.gatech.edu/~heitsch/Teaching/4318-sp17.html" >Spring 2017</a>,
+                    <a href="http://people.math.gatech.edu/~heitsch/Teaching/4318-sp12.html">Spring 2012</a>)
+                  </li>
+                  <li>Math 8803/4803: Discrete Mathematical Biology (<a href="http://people.math.gatech.edu/~heitsch/Teaching/discmathbio-sp08.html">Spring 2008</a>)
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="service" role="tabpanel" aria-labelledby="service-tab">
+              <div>
+                <h4>Editorial boards</h4>
+                <div>
+                  <ul>
+                    <li><a href="https://www.siam.org/publications/journals/siam-journal-on-discrete-mathematics-sidma/editorial-board">SIAM Journal on Discrete Mathematics</a>, 2020 - present.
+                    </li>
+                    <li><a href="https://www.degruyter.com/view/j/cmb">Computational and Mathematical Biophysics (Advisory)</a>, 2018 - present
+                    </li>
+                    <li><a href="https://www.springer.com/mathematics/mathematical+biology/journal/11538?detailsPage=editorialBoard">Bulletin of Mathematical Biology</a>, 2016 - present
+                    </li>
+                    <li><a href="https://www.cell.com/biophysj/editorial-board">Biophysical Journal, Section I: Nucleic Acids and Genomic Biophysics</a>, 2016 - present
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h4>Professional committees</h4>
+                <div>
+                  <ul>
+                    <li><a href="https://www.siam.org/prizes-recognition/major-prizes-lectures/detail/george-polya-prize-applied-combinatorics#Selection-Committee">George Pólya Prize in Applied Combinatorics Selection Committee</a>, 2019.
+                    </li>
+                    <li><a href="http://www.ams.org/about-us/governance/committees/comm-all.html">AMS Southeastern Section Program Committee</a>,
+                    Feb 2018 - Jan 2020
+                    </li>
+                    <li>
+                      <a href="https://canadam.math.ca/2017/organising_team">Canadian Discrete and Algorithmic Mathematics Conference (CanaDAM) Program Committee</a>,
+                      Spring 2016
+                    </li>
+                    <li><a href="https://www.ams.org/about-us/governance/committees/cowim-past.html">AMS Committee on Women in Mathematics (CoWIM)</a>,
+                      Feb 2015 - Jan 2018
+                    </li>
+                    <li>
+                      <a href="http://www.nimbios.org/governance/advboard">
+                        Board of Advisors, National Institute for Mathematical and Biological Synthesis (NIMBioS)</a>, 2008 - 2012
+                    </li>
+                    <li>AWM Workshop for Women Graduate Students and Recent PhDs at JMM, Fall 2011, Fall 2010, Fall 2005.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h4>Conference Organization</h4>
+                <div id="conference-organization" style="border: 1px solid"></div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="media" role="tabpanel" aria-labelledby="media-tab">
+              <div>
+                <h4>Recent Media Appearances</h4>
+                <div id="media-appearances" style="border: 1px solid"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <img border="0" height="186" src="http://www.math.gatech.edu/~heitsch/Pics/0103g2.png" width="200"/>
+        <div>Professor</div>
+        <div><a href="http://www.math.gatech.edu">School of Mathematics</a></div>
+        <div><a href="http://www.gatech.edu">Georgia Institute of Technology</a></div>
+        <div>Office: Skiles 211B</div>
+        <div>Phone: 404.894.4758</div>
+        <div>Fax: 404.894.4409</div>
+        <div>Email: <i>lastname</i> AT math.gatech.edu</div>
+      </div>
+    </main>
+  </div>
 
-                <div id="table-container"></div>
-            </div>
-        </main>
-        <footer class="row">
-            <div class="col">
-                <hr>
-                <p class="text-right"><a href="https://github.com/derekeder/csv-to-html-table">CSV to HTML Table</a> by
-                    <a href="http://derekeder.com">Derek
-                        Eder</a></p>
-            </div>
-        </footer>
-    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.csv.min.js"></script>
@@ -71,27 +223,148 @@
     <script src="js/csv_to_html_table.js"></script>
 
     <script>
-        function format_link(link) {
-            if (link)
-                return "<a href='" + link + "' target='_blank'>" + link + "</a>";
-            else return "";
-        }
+      function format_link(link) {
+        if (link) {
+          let domain = (new URL(link));
+          return "<a href='" + link + "' target='_blank'>" + domain.hostname + "</a>";
+        } else return "";
+      }
 
-        CsvToHtmlTable.init({
-            csv_path: "data/Health Clinics in Chicago.csv",
-            element: "table-container",
-            allow_download: true,
-            csv_options: {
-                separator: ",",
-                delimiter: '"'
-            },
-            datatables_options: {
-                paging: false
-            },
-            custom_formatting: [
-                [4, format_link]
-            ]
-        });
+      CsvToHtmlTable.init({
+        csv_path: "data/recent-articles.csv",
+        element: "recent-articles",
+        allow_download: false,
+        csv_options: {
+          separator: ",",
+          delimiter: '"'
+        },
+        datatables_options: {
+          paging: true,
+          pageLength: 5,
+          order: [[ 2, 'desc' ], [ 0, 'asc' ]],
+          autoWidth: false,
+          columns: [ { 'width': '30%' },
+                     { 'width': '15%' },
+                     { 'width': '5%' },
+                     { 'width': '25%' },
+                     { 'width': '25%' }]
+        },
+        custom_formatting: [
+          [4, format_link]
+        ]
+      });
+
+      CsvToHtmlTable.init({
+        csv_path: "data/upcoming-travel.csv",
+        element: "upcoming-travel",
+        allow_download: false,
+        csv_options: {
+          separator: ",",
+          delimiter: '"'
+        },
+        datatables_options: {
+          paging: true,
+          pageLength: 5,
+          order: [[ 5, 'desc' ], [ 4, 'desc' ]],
+          autoWidth: false,
+          columns: [ { 'width': '5%' },
+                     { 'width': '20%' },
+                     { 'width': '30%' },
+                     { 'width': '30%' },
+                     { 'width': '5%' },
+                     { 'width': '5%' },
+                     { 'width': '5%'}]
+        },
+        custom_formatting: [
+          [1, format_link]
+        ]
+      });
+
+     CsvToHtmlTable.init({
+        csv_path: "data/current-staff.csv",
+        element: "current-staff",
+        allow_download: false,
+        csv_options: {
+          separator: ",",
+          delimiter: '"'
+        },
+        datatables_options: {
+          paging: true,
+          pageLength: 5,
+          order: [[ 0, 'desc' ], [ 4, 'desc' ]],
+          autoWidth: false,
+          columns: [ { 'width': '5%' },
+                     { 'width': '30%' },
+                     { 'width': '30%' },
+                     { 'width': '5%' },
+                     { 'width': '5%' },
+                     { 'width': '5%' },
+                     { 'width': '20%'}]
+        },
+        custom_formatting: [
+          [1, format_link]
+        ]
+      });
+
+     CsvToHtmlTable.init({
+        csv_path: "data/conference-organization.csv",
+        element: "conference-organization",
+        allow_download: false,
+        csv_options: {
+          separator: ",",
+          delimiter: '"'
+        },
+        datatables_options: {
+          paging: true,
+          pageLength: 5,
+          order: [[ 7, 'desc' ], [ 6, 'desc' ]],
+          autoWidth: false,
+          columns: [ { 'width': '5%' },
+                     { 'width': '21%' },
+                     { 'width': '21%' },
+                     { 'width': '21%' },
+                     { 'width': '22%' },
+                     { 'width': '5%' },
+                     { 'width': '5%'}]
+        },
+        custom_formatting: [
+          [1, format_link]
+        ]
+      });
+
+     CsvToHtmlTable.init({
+        csv_path: "data/media-appearances.csv",
+        element: "media-appearances",
+        allow_download: false,
+        csv_options: {
+          separator: ",",
+          delimiter: '"'
+        },
+        datatables_options: {
+          paging: true,
+          pageLength: 5,
+          order: [[ 3, 'desc' ], [ 4, 'desc' ]],
+          autoWidth: false,
+          columns: [ { 'width': '30%' },
+                     { 'width': '30%' },
+                     { 'width': '30%' },
+                     { 'width': '5%' },
+                     { 'width': '5%' }]
+        },
+        custom_formatting: [
+          [0, format_link]
+        ]
+      });
+
+      $('#research-link').on('click', function (e) {
+        e.preventDefault()
+        $('#research-tab').tab('show')
+      })
+
+      $('#software-link').on('click', function (e) {
+        e.preventDefault()
+        $('#software-tab').tab('show')
+      })
     </script>
 </body>
 
