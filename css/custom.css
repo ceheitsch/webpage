@@ -1,13 +1,12 @@
 /* Custom styles */
-.legend {
-  text-align: left;
-  line-height: 18px;
-  color: #555;
+body { background-color: rgb(240,240,240); }
+div { font-size: 10pt; }
+.table-container {
 }
-.legend i {
-  width: 18px;
-  height: 18px;
-  float: left;
-  margin-right: 8px;
-  opacity: 0.7;
+.table-wrapper {
+    border: 1px solid gray;
+    padding: 10px;
+}
+.nav-tabs .nav-link.active {
+    background-color: rgb(220,220,220);
 }
